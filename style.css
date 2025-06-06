@@ -1,0 +1,185 @@
+/* background styling for gpt-3  */
+body {
+    background: linear-gradient(90deg, #052D56,#040C18,#040C18,#040C18 100%);
+}
+.gradient{
+    background: linear-gradient(90deg,#AE67FA,#F49867,#AE67FA );
+    -webkit-background-clip: text; /*-- For text*/ 
+    -webkit-text-fill-color: transparent;
+    line-height: 74px;
+    font-size: 64px;
+    font-weight: 700;
+    
+}
+.gradients{
+    background: linear-gradient(90deg,#AE67FA,#F49867,#AE67FA );
+    -webkit-background-clip: text; /*-- For text*/ 
+    -webkit-text-fill-color: transparent;
+    line-height: 34px;
+    font-size: 64px;
+    font-weight: 700;
+}
+.linear-2{
+    background: linear-gradient(90deg,#235080,#192f49,#0e396a,#103863,#0b4e96);
+    padding: 20px;
+}
+.default-grad{
+    background: linear-gradient(90deg,#AE67FA,#F49867,#AE67FA );
+    -webkit-background-clip: text; /*-- For text*/ 
+    -webkit-text-fill-color: transparent;
+}
+.form-controls{
+    background-color: #052D56;
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 100%;
+    color: #3D6184;
+    padding: 10px !important;
+    width: 100%;
+    outline: none;
+    border: 1px solid #3D6184;
+    padding-left: 10px;
+    /* margin-top: 0; */
+    
+}
+.form-control::placeholder {
+    color: #818386;
+    padding-left: 10px;
+    
+}
+.button-get{
+    color: #fff; 
+    padding: 30px 20px;
+    background-color: #FF4820;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.LOGO{
+    margin: 8% 0;
+}
+.top-pad{
+    margin-top: 60px;
+}
+.sec2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #81AFDD;
+}
+.sec3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #81AFDD;
+}
+.get-strt{
+    font-size: 16px;
+    font-weight: 500;
+    padding:15px 30px;
+    color: #fff;
+    background-color: black;
+    border-radius: 100px;
+}
+.sec5-grad{
+    background-image: linear-gradient( to right, #AE67FA, #F49867);
+    padding: 50px 0;
+}
+.sec4-top{
+    padding: 20% 0;
+}
+.sec6-grad{
+    background-image: linear-gradient( to right, #AE67FA, #F49867);
+    -webkit-background-clip: text; /*-- For text*/ 
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-bg{
+    background-color: #031B34;
+    height: 100vh;
+}
+footer p{
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 100%; */
+    
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: 95% !important;
+    }
+    .section2{
+        padding: 0 !important;
+    }
+    
+    .sec4-top{
+        padding: 2%;
+    }
+    input[type="search"] {
+        width: 318px !important;
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    .form-controls::placeholder{
+        width: 100%;
+    }
+    .button-get{
+        width:96%;
+        color: #fff; 
+        padding: 10px 10px;
+        background-color: #FF4820;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+    .footer-card{
+        width: 100%;
+        height: 20rem;  
+    }
+    .foot-card img{
+        width: 100%;
+    }
+    .foot-card{
+        width: 100% !important;
+        margin-bottom: 4%;
+    }
+    .foot-h2{
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 5%;
+    }
+    .foot-h2 br{
+        display: none;
+    }
+    .footer-bg{
+        height: auto;
+    }
+    .Request{
+        width: 100%;
+        height: 10vh;
+    }
+    .get-strt{
+        width: 100%;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    .LOGO{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .sec2G, .sec5, .footer-bg{
+        width: 100% !important;
+    }
+    .sec6-grad{
+        /* width: 100% !important; */
+        font-size: 27px !important;
+        text-align: start !important;
+    }
+    .sec6-top, .footer-bg{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .linear-2{
+        padding: 8px;
+    }
+}
+    
